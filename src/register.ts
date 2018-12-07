@@ -1,5 +1,5 @@
-import { Suru } from "core";
-import { ShellBit, ShellBitArgs } from ".";
+import { Suru } from "@surucode/suru";
+import { ShellBit, ShellBitArgs } from "bit";
 
 export default () => {
   const suru = Suru.registerBit("shell", ShellBit);
