@@ -1,4 +1,4 @@
-export { ShellBit, ShellBitArgs } from "./bit";
+export { ShellBit, ShellBitArgs } from "./bit/ShellBit";
 
 type ShellBitArgs = Symbol;
 type ShellBitFun = (program: string, ...args: Array<string | Symbol>) => void;

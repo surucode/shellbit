@@ -1,6 +1,6 @@
+import { SuruBit, Task, Suru } from "@surucode/suru-core";
 import { cwd } from "process";
 import { spawnSync } from "child_process";
-import { SuruBit, Task, Suru } from "core";
 
 type ShellBitArgs = Symbol;
 
